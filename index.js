@@ -1,4 +1,7 @@
-import './style.css';
+const { createApp } = require('vue');
+import App from './src/App.vue';
+
+createApp(App).mount('#app');
 
 // La prueba técnica consistirá en crear una aplicación para buscar películas utilizando la siguiente API (utilizando el parámetro que devuelve un listado de //// películas):
 
